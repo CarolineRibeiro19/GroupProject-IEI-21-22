@@ -13,6 +13,7 @@ This project is part of the **Introduction to Computer Engineering** course at *
 📂 project/ │── index.html # Main page
 │── css/ # CSS files
 │── js/ # JavaScript files
+|── imagens/ #Images files
 
 
 ## ⚡ Features  
