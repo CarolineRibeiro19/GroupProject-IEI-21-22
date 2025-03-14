@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
+/*------------TOP NAVBAR SETTINGS---------------------------------------------*/
+
+.backgroundNav {
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+.textNav {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*--- Adiciona espaço entre os items da barra de menu ---*/
+
+.textTitleNav {
+    color:firebrick !important;
+    font-size: 35px;
+    font-family: 'Josefin Sans', 'Bebas Neue',sans-serif;
+    font-weight: 800;
+    padding-right: 80px; /*--- Adiciona espaço entre o METAVERSO e os items da barra de menu ---*/
+    padding-left: 0;
+    padding-bottom: 0;
+
+}
+/*---Muda a cor do fundo das opções da barra de menu---*/
+ul li :hover {
+    background-color: dimgray;
+}
+
+ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*-----------------------------------------------------*/
+
+
+
+
+.body {
+    background-color: black !important;
+    color: white;
+    position: relative;
+}
+
+.textgeral{
+    color: white;
+    font-size: 20px;
+}
+
+.heightFull {
+    height: 80vh;
+}
+
+.sectionOne {
+    padding-top: 10px;
+    background-color: black;
+}
+
+.titleSectionOne {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subTitleSectionOne {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 34px;
+}
+
+.divContentSection {
+    padding: 0px 100px;
+}
+
+.btnSectionOneService {
+    margin-right: 30px;
+    padding: 17px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.divTextSectionOne {
+    margin-right: 40px;
+}
+
+.titleSectionTwo {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 34px;
+    margin-top: 40px;
+}
+
+.subTitleSectionTwo {
+    color: white;
+    font-size: 10px;
+    margin: 0px;
+    margin-bottom: 34px;
+}
+
+.paddingFirstColSectionTwo {
+    padding-right: 100px;
+    margin-top: 200px;
+    margin-bottom: 140px;
+}
+
+.paddingFirstColSectionTwoimg{
+    margin-left: 200px;
+    margin-top: 250px;
+}
+
+.paddingFirstColSectionThree {
+    padding-right: 100px;
+    margin-top: 550px;
+    margin-bottom: 100px;
+}
+
+.paddingSecondImage {
+    margin-left: 50px;
+    padding-left: 50px;
+}
+
+#link-top{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding : 10px;
+    position: fixed;
+    right: 80px ;
+}
+
+.divOneSobre{
+    text-align: center !important; 
+    color: white;
+    margin-top: 50px;
+}
+
+.titleOneSobre{
+    font-size: 50px;
+}
+
+.textOneSobre{
+    font-size: 30px;
+}
+.divTwoSobre{
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+
+
+
+/*-------------------------FOOTER SETTINGS------------------------------*/
+
+li a, li a:visited {
+    color: gray !important;
+}
+
+li a:hover, li a:active {
+    color: dimgray !important;
+}
+
+#footer {
+   
+    position: relative;
+    flex: 0 0 50px;/*or just height:50px;*/
+    margin-top: auto;
+    font-size: small;   
+}
+
+/*-------------------------Section Settings------------------------------*/
+
+.titleSectionOne {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+.subTitleSectionOne {
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 34px;
+}
+
+.titleSectionTwo {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 34px;
+    margin-top: 40px;
+    margin-left: auto;
+}
+
+.subTitleSectionTwo {
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 34px;
+}
+
+.heightFull {
+    height: 80vh;
+}
+
+.paddingFirstColSectionThree {
+    padding-right: 100px;
+    margin-top: 550px;
+    margin-bottom: 100px;
+}

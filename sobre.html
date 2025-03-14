@@ -1,0 +1,112 @@
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Metaverso</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css" >
+        <!-- LeaftLet CSS e JavaScript -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+        <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+        <script type="text/javascript" src="js/map.js"></script>
+
+    </head>
+
+    <body class="body">
+        <!-- Barra de navegação -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light backgroundNav">
+            <div class="container-fluid">
+              <a class="navbar-brand textTitleNav" href="site1.html">METAVERSO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item dropdown textNav">
+                    <a class="nav-link dropdown-toggle textNav" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ORIGEM
+                    </a>
+                    <ul class="dropdown-menu " aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="origem.html">O que é?</a></li>
+                      <li><a class="dropdown-item" href="origem.html">Real origem</a></li>
+                      <li><a class="dropdown-item" href="origem.html">Presença na mídia</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textNav" href="tecnologia.html">TECNOLOGIA</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link textNav" href="aplicacoes.html">APLICAÇÕES</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle textNav" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MERCADO
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">Meta</a></li>
+                      <li><a class="dropdown-item" href="#">Microsoft</a></li>
+                      <li><a class="dropdown-item" href="#">NFT</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link textNav" href="#">SOBRE</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+            <div class="divOneSobre">
+                <!-- Informações sobre os autores -->
+                <p class="titleOneSobre">Autores </p>
+                <p class="textOneSobre">Caroline Ribeiro - 106093 (50%)</br> Responsável por: Páginas sobre, tecnologia, aplicações </br>caroline.ribeiro@ua.pt </br>
+                 João Marcos Alves - 91749 (50%) </br> Responsável por: Páginas home, mercado, origem  </br>jmarcos@ua.pt </br> criação: 19/02/2022</p>
+                <h2 id="topicoC1">Realizado na Universidade de Aveiro - Portugal</h2>
+                <!-- Mapa da universidade -->
+                <center><div id="oMeuMapa" style="width: 500px; height: 400px;"></div></center>
+                <script type="text/javascript" src="map.js"></script>
+                </br> Introdução à Engenharia Informática - Curso Engenharia de Computadores e Informática
+            <div class="divOneSobre">    
+                <!-- Agradecimentos aos docentes -->
+                <p class="titleOneSobre">Agradecimentos </p>
+                <p class="textOneSObre">Agradecemos aos professores António Manuel Adrego Rocha e Óscar Narciso
+                Mortágua Pereira, </br> responsáveis pelas turmas de Introdução à Engenharia Informática, </br> pela oportunidade de aprofundar no tema escolhido usando ferramentas
+                ensinadas em sala de aula.</p>
+            </div>
+            </div>
+            <!-- Caixa de dúvidas ou sugestões -->
+            <div class="divTwoSobre titleOneSobre">Queremos saber sua opinião!</div>
+            <div class="divOneSobre container">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Seu email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Dúvidas ou sugestoẽs</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <!-- -- Evento para abrir o modal -- -->                
+                <button class="btn btn-outline-light btnSectionOneService" data-bs-toggle="modal" data-bs-target="#myModal">Enviar</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="vertical-alignment-helper">
+                        <div class="modal-dialog vertical-align-center">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title popupText" id="myModalLabel">Obrigado! </h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" area-label="Close"></button>
+                                </div>
+                                <div class="modal-body popupText">Entraremos em contato assim que possível</div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    </body>
+    
+</html>

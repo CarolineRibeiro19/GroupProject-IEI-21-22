@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+
+/*------------TOP NAVBAR SETTINGS---------------------------------------------*/
+
+.backgroundNav {
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+.textNav {
+    color: white !important;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*--- Adiciona espaço entre os items da barra de menu ---*/
+
+.textTitleNav {
+    color:firebrick !important;
+    font-size: 35px;
+    font-family: 'Josefin Sans', 'Bebas Neue',sans-serif;
+    font-weight: 800;
+    padding-right: 80px; /*--- Adiciona espaço entre o METAVERSO e os items da barra de menu ---*/
+    padding-left: 0;
+    padding-bottom: 0;
+
+}
+/*---Muda a cor do fundo das opções da barra de menu---*/
+ul li :hover {
+    background-color: dimgray;
+}
+
+ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*---------------------IMAGE-------------------------------*/
+
+#body { 
+  
+  background-color: #000;
+  font-family: 'Candara', 'Poppins', Tahoma, sans-serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 2rem;
+  
+    
+}
+
+.container {
+    position: relative;
+}
+
+.btn-style{
+  font-weight: 600;
+}
+
+.metaverse-image{
+  content: "";
+  background: url("metaverse-girl.png");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  filter: blur(8px);
+  transform: scale(1.1);
+  top: 0;
+}
+
+h1,
+p {
+  margin: 0 0 auto;  
+  color: white;
+  font-weight: 500;
+
+}
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-weight: 500;
+    color: whitesmoke;
+    left: 2px;
+}
+
+p {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.texto{
+  position: relative;
+  left: 150px;
+  top: 350px;
+}
+
+.loading {
+  margin: 0;
+  padding: 0
+  font-size: 84px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: firebrick;
+  font-weight: 800;
+  /*text-align: center; */
+}
+
+ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+  display: flex;
+}
+ul li {
+  list-style: none;
+  font-size: 5em;
+  letter-spacing: 20px;
+  animation: animate 1.8s alternate infinite;
+}
+
+@keyframes animate {
+  0% {
+    left: 0;
+    filter: blur(0);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(2px);
+    opacity: .7;
+  }
+}
