@@ -1,4 +1,4 @@
-# Web Development Project - Universidade de Aveiro  
+# Web Development Project - Metaverso
 
 This project is part of the **Introduction to Computer Engineering** course at **DETI - Universidade de Aveiro**, focused on developing a **dynamic and interactive web application using HTML, CSS, and JavaScript**.  
 
